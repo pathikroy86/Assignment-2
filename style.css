@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.orange-bg {
+    background-color: #E6533C;
+    color: white;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(17, 17, 17);
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container>h2 {
+    color: #E6533C;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.menu {
+    display: flex;
+    height: fit-content;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 39px;
+}
+
+.menu p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px 20px;
+    border-radius: 46px;
+}
