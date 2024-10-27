@@ -5,20 +5,32 @@
     color: white;
 }
 
+.btn-style {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 42px;
+}
+
 body {
     font-family: "Inter", sans-serif;
     background-color: rgb(17, 17, 17);
 }
 
+/*Header Styles*/
 .header-container {
     width: 80%;
     margin: auto;
 }
 
+/*Nav bar styles*/
 .menu-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .menu-container>h2 {
@@ -43,4 +55,22 @@ body {
     margin-top: 0px;
     padding: 5px 20px;
     border-radius: 46px;
+}
+
+/*Banner styles*/
+.banner-left>h1 {
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+}
+
+.diff-font {
+    font-family: "Dancing Script", cursive;
+    font-size: 82px;
+    font-style: italic;
+}
+
+.banner-left p {
+    color: white;
+    margin-bottom: 30px;
 }
