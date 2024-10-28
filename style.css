@@ -58,6 +58,13 @@ body {
 }
 
 /*Banner styles*/
+.banner-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 50px;
+    color: white;
+}
+
 .banner-left>h1 {
     color: white;
     font-size: 78px;
@@ -73,4 +80,56 @@ body {
 .banner-left p {
     color: white;
     margin-bottom: 30px;
+}
+
+.banner-right {
+    background-image: url(images/Images\ 2.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.workout-tutorial {
+    background-color: #FFFFFF1A;
+    width: fit-content;
+    padding: 1px 35px;
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.workout-tutorial h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px 0px;
+}
+
+.workout-tutorial p {
+    font-size: 13px;
+}
+
+.video-tutorial {
+    background-color: #FFFFFF1A;
+    width: fit-content;
+    padding: 1px 25px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 70%;
+    left: -10%;
+}
+
+.video-tutorial h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.circle {
+    background-color: #E6533C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
