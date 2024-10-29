@@ -292,3 +292,110 @@ body {
     margin-right: 5px;
     margin-bottom: 15px;
 }
+
+/*Meet our team styles*/
+.meet-our-team {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.meet-our-team h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.meet-our-team>p {
+    text-align: center;
+    color: #FFFFFF80;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.team-container {
+    background-color: #FFFFFF1A;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.trainer {
+    padding: 100px 10px 0px 10px;
+}
+
+.trainer>h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.trainer>p {
+    color: #FFFFFF99;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.trainer-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+/*Footer styles*/
+footer {
+    background-color: #FFFFFF1A;
+}
+
+.footer-body-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.left-footer>h1 {
+    color: #E6533C;
+    font-size: 3em;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left-footer>p {
+    color: #FFFFFF80;
+    font-size: 14px;
+}
+
+.right-footer>h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.right-footer p {
+    color: #FFFFFF80;
+    font-size: 1.2em;
+}
+
+hr {
+    color: #FFFFFF80;
+    width: 80%;
+    margin: auto;
+}
+
+.copyright {
+    text-align: center;
+    color: #FFFFFF80;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
