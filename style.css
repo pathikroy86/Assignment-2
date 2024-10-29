@@ -58,6 +58,10 @@ body {
     border-radius: 46px;
 }
 
+.menu-icon {
+    display: none;
+}
+
 /*Banner styles*/
 .banner-container {
     display: grid;
@@ -96,7 +100,7 @@ body {
     border-radius: 12px;
     position: absolute;
     top: 10%;
-    left: 55%;
+    left: 35%;
 }
 
 .workout-tutorial h3 {
@@ -119,7 +123,7 @@ body {
     gap: 20px;
     position: absolute;
     top: 70%;
-    left: -10%;
+    left: -20%;
 }
 
 .video-tutorial h3 {
@@ -324,7 +328,7 @@ body {
 }
 
 .trainer {
-    padding: 100px 10px 0px 10px;
+    padding: 200px 0px 10px 20px;
 }
 
 .trainer>h4 {
@@ -398,4 +402,88 @@ hr {
     color: #FFFFFF80;
     font-size: 20px;
     padding-bottom: 30px;
+}
+
+/*Responsive for mobile*/
+@media only screen and (max-width: 576px) {
+    .header-container {
+        width: 100%;
+    }
+
+    .menu-container {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        color: white;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-right {
+        width: 100%;
+        height: 500px;
+        background-position: center;
+    }
+
+    .workout-tutorial {
+        left: 55%;
+    }
+
+    .video-tutorial {
+        left: 10%;
+        top: 60%;
+    }
+
+    .habit-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .run-extra-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .calculator-container {
+        width: 100%;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calculate-container {
+        width: 100%;
+    }
+
+    .meet-our-team {
+        width: 90%;
+    }
+
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer {
+        padding-top: 200px;
+    }
+
+    .footer-body-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
