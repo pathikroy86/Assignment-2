@@ -135,10 +135,11 @@ body {
     border-radius: 50%;
 }
 
-/*Change your habit container*/
+/*Change your habit styles*/
 .change-habit {
     width: 80%;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 .change-habit>h1 {
@@ -179,4 +180,34 @@ body {
 .habit>p {
     color: #FFFFFF80;
     font-size: 14px;
+}
+
+/*Run an extra Mile styles*/
+.run-extra-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 40px;
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 80px;
+}
+
+.joining>h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.joining>p {
+    color: #FFFFFF80;
+    font-size: 14px;
+}
+
+.run-image>img {
+    border-radius: 18px;
+    width: 100%;
 }
