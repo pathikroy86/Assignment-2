@@ -23,6 +23,7 @@ body {
 .header-container {
     width: 80%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 /*Nav bar styles*/
@@ -132,4 +133,50 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+/*Change your habit container*/
+.change-habit {
+    width: 80%;
+    margin: auto;
+}
+
+.change-habit>h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.change-habit>p {
+    color: #FFFFFF80;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.habit-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.habit {
+    text-align: center;
+}
+
+.habit>img {
+    border: 1px solid #FFFFFF80;
+    border-radius: 50%;
+}
+
+.habit>h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.habit>p {
+    color: #FFFFFF80;
+    font-size: 14px;
 }
